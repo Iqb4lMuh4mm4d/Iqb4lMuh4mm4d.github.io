@@ -1,0 +1,52 @@
+<!doctype html>
+<html>         
+  <head>
+    <title>Form.html</title>
+  </head>
+  <body>
+    <div>
+      <h2>Buat Account Baru!</h2>
+      <h3><b>Sign Up Form</b></h3>
+      <label>
+          <p>First name:</p>
+        <input type="text" id="first name">
+      </label>
+      <label>
+          <p>Last name:</p>   
+        <input type="text" id="last name">
+      </label>
+      <p>Gender:</p>
+      <form action="welcome.html">
+        <label>
+            <input type="radio" name="gender" value="male">Male<br />
+        </label>
+        <label>
+            <input type="radio" name="gender" value="Female">Female<br />
+        </label>
+         <label>   
+            <input type="radio" name="gender" value="Other">Other<br />
+        </label>
+        <p>Nationality:</p>
+        <select name="nationality">
+          <option value="Malaysian">Malaysian</option>
+          <option value="Indonesia">Indonesian</option>
+          <option value="Singaporean">Singaporean</option>
+          <option value="Australian">Australian</option>
+        </select>
+        <p>Language Spoken:</p>
+        <label>
+            <input type="checkbox" name="language spoken" value="Bahasa Indonesia">Bahasa Indonesia<br />
+        </label>
+        <label>
+            <input type="checkbox" name="language spoken" value=" English">English<br />
+        </label>
+        <label>
+            <input type="checkbox" name="language spoken" value="other">Other<br />
+        </label>
+        <p>Bio:</p>
+        <textarea id="bio" rows="6" cols="25"></textarea><br />
+	      <input type="Submit" name="submit" value="Sign Up"/>
+	    </form>    
+    </div>
+    </body>
+</html>

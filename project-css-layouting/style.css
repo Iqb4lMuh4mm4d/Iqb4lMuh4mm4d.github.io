@@ -1,0 +1,60 @@
+body {
+  background-image: url("sample-pattern.png");
+  background-repeat: repeat;
+  background-color: #fff;
+}
+
+ul {
+  margin: 10px auto;
+  padding: 40px auto;
+  float: right;
+}
+
+li {
+  color: blue;
+  font-family: 'Oswald', sans-serif;
+  font-size: 16px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300;
+  display: inline-block;
+  width: 80px;
+}
+
+li:hover {
+  color: blue;
+}
+
+header {
+  background-color: #fff;
+  margin: 0px;
+  padding: 10px;
+  position: relative;
+}
+
+.header {
+  background-image: url("sample-logo.png");
+  margin: 0px;
+  padding: 0px;
+}
+
+.judul {
+  text-align: center;
+  font-family: impact;
+}
+
+.article-list {
+  width: 70%;
+  background-color: #fff;
+  margin: auto;
+}
+
+.article-list article {
+  border-bottom: 1px solid;
+}
+
+.footer {
+  text-align: center;
+  background-color: #353535;
+  color: #fff;
+  padding: 40px;
+}
