@@ -5,7 +5,7 @@ SIMPAN regular,thin,large di dalam typeCrust(Arr).
 Buat FUNGSI takeOrder.
 Buat FOR untuk menghitung jumlah pembeloi yang datang.
 TAMPILKAN jumlamh pembeli yang datang.
-IF jumalh pembeli merupakan keli[patan sepuluh.
+IF jumalh pembeli merupakan kelipatan sepuluh.
 TAMPILKAN pembeli kellipatan sepuluh mendapatkan fre medium pepsi.
 
 Buat FUNGSI getSubtotal yang mereturn itemCount.
